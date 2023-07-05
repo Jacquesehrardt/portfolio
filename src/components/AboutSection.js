@@ -2,18 +2,18 @@ import React from "react";
 
 import Accordion from 'react-bootstrap/Accordion';
 
+import jacques_pic from '../assets/img/jacques_pic.jpg';
+
 class AboutSection extends React.Component{
 
    AccordionItem(item) {
       return (
-            <Accordion.Item eventKey={item.id}>
-               <Accordion.Header>{item.header}</Accordion.Header>
-               <Accordion.Body>
-                  {item.body}
-               </Accordion.Body>
-            </Accordion.Item>
+         <Accordion.Item eventKey={item.id}>
+            <Accordion.Header>{item.header}</Accordion.Header>
+            <Accordion.Body>{item.body}</Accordion.Body>
+         </Accordion.Item>
       );
-      }
+   }
 
    render(){
       const items = [
@@ -30,24 +30,30 @@ class AboutSection extends React.Component{
       ];
 
       return(
-         <section>
-            <article>
-               <h3>About</h3>
-               <h4>Here the main information about me, my preferences and my professional goals</h4>
-            </article>
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
-               {
-                  items.map((item) => {
-                     return(
-                        <this.AccordionItem
-                           id={item.id}
-                           header={item.header} 
-                           body={item.body}
-                        />
-                     )
-                  })
-               }
-            </Accordion>
+         <section className="about">
+            <figure className="aboutImg">
+               <img src ={jacques_pic} alt="Jacques"></img>
+               <figcaption></figcaption>
+            </figure>
+            <aside>
+               <article>
+                  <h3>About</h3>
+                  <h4>Here the main information about me, my preferences and my professional goals</h4>
+               </article>
+               <Accordion defaultActiveKey={['0']} alwaysOpen>
+                  {
+                     items.map((item) => {
+                        return(
+                           <this.AccordionItem
+                              id={item.id}
+                              header={item.header} 
+                              body={item.body}
+                           />
+                        )
+                     })
+                  }
+               </Accordion>
+            </aside>
          </section>
       )
    }
