@@ -47,7 +47,7 @@ img{
 
 .App{
    width: 100%;
-   @include flexColumn();
+   @include flexColumn(0vh);
 }
 
 article{
