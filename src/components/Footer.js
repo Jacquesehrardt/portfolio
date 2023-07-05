@@ -1,4 +1,5 @@
 import React from "react";
+
 import resume from '../assets/documents/jacques_ehrardt_resume.pdf'
 
 class Footer extends React.Component{
@@ -14,7 +15,7 @@ class Footer extends React.Component{
                </p>
             </article>
             <section>
-               <a href={resume} target="_blank" download={"jacques_ehrardt_resume.pdf"}>Download Resume</a>
+               <a href={resume} target="_blank" rel="noreferrer" download={"jacques_ehrardt_resume.pdf"}>Download Resume</a>
                <a href="mailto:ehrardt38@gmail.com">Send a Email</a>
             </section>
          </footer>
