@@ -1,0 +1,18 @@
+@import '~bootstrap/scss/bootstrap';
+// Font Family import
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+// Screen Sizes
+$mobileScreen:300px;
+$tabletScreen:700px;
+$desktopScreen:1000px;
+
+// Colors
+$purple: #8585FF;
+$darkPurple: #5151AF;
+$yellow: #FFB800;
+$lightyellow: #FFBD51;
+$green: #65C837;
+
+// Font Family
+$fontFamily: 'Rubik', sans-serif;

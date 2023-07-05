@@ -1,4 +1,4 @@
-import './sass/style.sass';
+import './scss/App.scss';
 
 import Header from './components/Header';
 import SkillSection from './components/SkillSection';
