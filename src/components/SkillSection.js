@@ -8,7 +8,7 @@ import postgresqlSvg from '../assets/img/postgresql.svg';
 class SkillSeciton extends React.Component{
    render(){
       return(
-         <section>
+         <section className="skills" id="skills">
             <article>
                <h3>My technical skills</h3>
             </article>

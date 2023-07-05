@@ -5,7 +5,7 @@ import resume from '../assets/documents/jacques_ehrardt_resume.pdf'
 class Footer extends React.Component{
    render(){
       return(
-         <footer>
+         <footer id="contact">
             <article>
                <h2>
                   Thank’s for reading

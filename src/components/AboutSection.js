@@ -30,7 +30,7 @@ class AboutSection extends React.Component{
       ];
 
       return(
-         <section className="about">
+         <section className="about" id="about">
             <figure className="aboutImg">
                <img src ={jacques_pic} alt="Jacques"></img>
                <figcaption></figcaption>
