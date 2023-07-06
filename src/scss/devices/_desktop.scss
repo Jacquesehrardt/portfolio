@@ -1,0 +1,208 @@
+@media (min-width: $desktopScreen) {
+   header{
+      > section{
+         width: 100%;
+         padding: 12% 50% 12% 12%;
+
+         > h1{
+            font-size: 64px;
+         }
+
+         > h3{
+            font-size: 32px;
+         }
+
+         > a{
+            width: 15vw;
+            height: 6vh;
+            column-gap: 1vw;
+            font-size: 24px;
+         }
+      }
+   }
+
+   nav{
+      width: 100%;
+      padding: 0% 12%;
+      background-color: white;
+
+      > h2{
+         color: $darkPurple;
+      }
+
+      > ul {
+         display: flex;
+         column-gap: 4vw;
+         list-style-type: none;
+         background-color: transparent;
+      }
+
+      li {
+         display: flex;
+      }
+
+      a {
+         width: 100%;
+         color: $darkPurple;
+         padding: 2%;
+         font-size: 18px;
+         font-weight: 500;
+         transition: .4s;
+      }
+
+      a:hover {
+         scale: 1.2;
+      }
+
+      > details{
+         display: none;
+      }
+   }
+
+   article{
+      row-gap: 2vh;
+
+      > h3{
+         font-size: 40px;
+      }
+
+      > h4{
+         font-size: 20px;
+      }
+   }
+
+   div > section{
+      padding: 5% 0%;
+   }
+
+   .skills{
+      row-gap: 4vw;
+
+      > aside{
+         width: 76%;
+         font-size: 22px;
+
+         > figure{
+            width: 24%;
+            padding: 2% 0%;
+            border-radius: 20px;
+         }
+
+         img{
+            width: 75%;
+         }
+      }
+   }
+
+   .about{
+      padding-left: 12%;
+      padding-right: 12%;
+      flex-direction: row;
+      justify-content: space-between;
+      
+
+      article{
+         > h3{
+            text-align: left;
+         }
+
+         > h4{
+            text-align: left;
+         }
+      }
+
+      > figure{
+         width: fit-content;
+         padding-left: 2%;
+
+         >img{
+            width: 23vw;
+            border-radius: 40px;
+         }
+
+         > figcaption{
+            width: 23vw;
+            height: 23vw;
+            border-radius: 40px;
+         }
+      }
+
+      > aside{
+         width: 60%;
+      }
+   }
+
+   .accordion{
+      .accordion-button {
+         font-size: 24px;
+      }
+
+      .accordion-body{
+         font-size: 16px;
+      }
+   }
+
+   .portfolio{
+      padding-left: 12%;
+      padding-right: 12%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 5vh;
+
+      > article{
+         width: 100%;
+
+         > h3 {
+            text-align: left;
+         }
+
+         > h4{
+            width: 50%;
+            text-align: left;
+         }
+      }
+
+      .card{
+         width: 30%;
+      }
+
+      .card-title{
+         font-size: 20px;
+      }
+
+      .card-text{
+         font-size: 16px;
+      }  
+
+      a{
+         width: 50%;
+         column-gap: 1vw;
+         font-size: 16px;
+      }
+   }
+
+   footer{
+      > article{
+         width: 76%;
+
+         > h2{
+            font-size: 64px;
+         }
+
+         > p{
+            width: 50%;
+            font-size: 30px;
+         }
+      }
+
+      > section {
+         width: 76%;
+
+         a {
+            padding: 1% 3%;
+            border-radius: 40px;
+         }
+      }
+   }
+}

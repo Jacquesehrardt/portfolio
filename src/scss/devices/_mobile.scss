@@ -1,0 +1,340 @@
+@media (min-width: $mobileScreen) {
+   header{
+      background-color: $darkPurple;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      > section{
+         display: flex;
+         flex-direction: column;
+         row-gap: 1vh;
+         padding: 20% 10%;
+         background-image: url('../../assets/img/header_bg.png');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+
+         > h1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 110%;
+         }
+
+         > h3{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 143%;
+         }
+
+         > a{
+            width: 30vw;
+            height: 6vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 2vw;
+            border-radius: 14px;
+            font-size: 11px;
+            font-weight: 500;
+         }
+      }
+   }
+
+   nav{
+      position: relative;
+      width: 80%;
+      height: 15vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > h2{
+         color: white;
+         font-weight: 400;
+
+         > strong{
+            font-weight: 900;
+         }
+      }
+
+      > ul {
+         display: none;
+      }
+   }
+   
+   details{
+      width: 100%;
+      text-align: right;
+      position: absolute;
+      > ul {
+         position: absolute;
+         list-style-type: none;
+         background-color: white;
+         width: 100%;
+         row-gap: 1vh;
+      }
+
+      li {
+         display: flex;
+      }
+
+      a {
+         width: 100%;
+         color: $purple;
+         padding: 2%;
+         text-transform: uppercase;
+      }
+
+      svg:last-child{
+         display: none;
+      }
+
+      &[open]{
+         text-align: right;
+
+         svg:first-child{
+            display: none;
+         }
+
+         svg:last-child{
+            display: inline-block;
+         }
+      }
+   }
+
+   summary {
+      list-style: none;
+      color: white;
+      font-size: 20px;
+      transition: .5s;
+   }
+
+   article{
+      @include flexColumn(4vh);
+      
+      > h3{
+         font-size: 32px;
+         font-weight: 700;
+      }
+
+      > h4{
+         font-size: 20px;
+         font-weight: 400;
+         line-height: 133%;
+      }
+   }
+
+   div > section{
+      @include flexColumn(3vh);
+      padding: 15% 0%;
+   }
+
+   .skills{
+      background: rgba(231, 243, 239, 0.20);
+
+      > aside{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         row-gap: 3vh;
+         font-size: 20px;
+         font-weight: 700;
+         text-align: center;
+         color: $purple;
+
+         > figure{
+            width: 60%;
+            padding: 5% 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+         }
+
+         img{
+            width: 80%;
+         }
+
+         figcaption{
+            @include flexColumn();
+            width: 80%;
+         }
+
+         span{
+            display: flex;
+            height: 1vh;
+            background-color: $darkPurple;
+            border-radius: 20px;
+         }
+
+         .react{
+            width: 80%;
+         }
+
+         .vue{
+            width: 70%;
+         }
+
+         .php{
+            width: 60%;
+         }
+
+         .postgresql{
+            width: 50%;
+         }
+      }
+   }
+
+   .about{
+      align-items: center;
+      row-gap: 10vh;
+
+      > figure{
+         position: relative;
+         width: 80%;
+         display: flex;
+         justify-content: center;
+
+         >img{
+            width: 72vw;
+            border-radius: 32px;
+            box-shadow: 0px 2.5px 18px 0px rgba(0, 0, 0, 0.25);
+         }
+
+         > figcaption{
+            position: absolute;
+            width: 72vw;
+            height: 72vw;
+            z-index: -1;
+            background-color: $purple;
+            border-radius: 32px;
+            box-shadow: 0px 2.5px 18px 0px rgba(0, 0, 0, 0.25);
+            transform: rotate(-9deg);
+         }
+      }
+
+      > aside{
+         width: 80%;
+         @include flexColumn(6vh);
+         font-weight: 400;
+      }
+   }
+
+   .accordion{
+      @include flexColumn(4vh);
+      
+      .accordion-button {
+         font-size: 24px;
+      }
+
+      .accordion-item:nth-child(1) .accordion-button{
+         color: $green;
+      }
+
+      .accordion-item:nth-child(2) .accordion-button{
+         color: $lightyellow;
+      }
+
+      .accordion-body{
+         font-size: 16px;
+         line-height: 148%;
+      }
+   }
+
+   .portfolio{
+      align-items: center;
+
+      img{
+         border-radius: 27px;
+      }
+
+      .card{
+         width: 80%;
+         border: none;
+      }
+
+      .card-body{
+         @include flexColumn(2vh)
+      }
+
+      .card-title{
+         font-size: 18px;
+         font-weight: 600;
+         color: $darkPurple;
+      }
+
+      .card-text{
+         font-size: 14px;
+         font-weight: 400;
+         line-height: 133%;
+         color: $black;
+      }  
+
+      a{
+         width: 40vw;
+         height: 5vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         column-gap: 2vw;
+         border-radius: 11px;
+         background: $darkPurple;
+         color: white;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 133%;
+
+         > svg{
+            transform: rotate(90deg);
+         }
+      }
+   }
+
+   footer{
+      @include flexColumn(4vh);
+      align-items: center;
+      padding: 20vh 0vh;
+      background-color: $darkPurple;
+
+      > article{
+         width: 80%;
+         @include flexColumn(1vh);
+
+         > h2{
+            font-size: 56px;
+            font-weight: 700;
+         }
+
+         > p{
+            color: white;
+            font-size: 32px;
+            font-weight: 400;
+         }
+      }
+
+      > section {
+         width: 80%;
+         @include flexColumn(2vh);
+
+         a {
+            width: fit-content;
+            padding: 3% 6%;
+            border: 2px solid $yellow;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 500;
+         }
+
+         a:first-child{
+            color: white;
+            background-color: $yellow;
+         }
+
+         a:last-child{
+            color: white;
+         }
+      }
+   }
+}

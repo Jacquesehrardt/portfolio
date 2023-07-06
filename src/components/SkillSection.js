@@ -8,7 +8,7 @@ import postgresqlSvg from '../assets/img/postgresql.svg';
 class SkillSeciton extends React.Component{
    render(){
       return(
-         <section>
+         <section className="skills" id="skills">
             <article>
                <h3>My technical skills</h3>
             </article>
@@ -17,28 +17,28 @@ class SkillSeciton extends React.Component{
                   <img src={reactSvg} alt="React logo"></img>
                   <figcaption>
                      <p>React</p>
-                     <span></span>
+                     <span className="react"></span>
                   </figcaption>
                </figure>
                <figure>
                   <img src={vueSvg} alt="Vue logo"></img>
                   <figcaption>
                      <p>Vue</p>
-                     <span></span>
+                     <span className="vue"></span>
                   </figcaption>
                </figure>
                <figure>
                   <img src={phpSvg} alt="PHP logo"></img>
                   <figcaption>
                      <p>PHP</p>
-                     <span></span>
+                     <span className="php"></span>
                   </figcaption>
                </figure>
                <figure>
                   <img src={postgresqlSvg} alt="PostgreSQL logo"></img>
                   <figcaption>
                      <p>PostgreSQL</p>
-                     <span></span>
+                     <span className="postgresql"></span>
                   </figcaption>
                </figure>
             </aside>

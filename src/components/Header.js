@@ -9,28 +9,24 @@ class Header extends React.Component{
    render(){
       return(
          <header>
-            <section>
-               <h2>
-                  <span>&#x7b;JAC</span>
-                  /DEV&#x7d;
-               </h2>
+               
                <nav>
+                  <h2>
+                     <strong>&#x7b;JAC</strong>
+                     /DEV&#x7d;
+                  </h2>
                   <NavList />
                   <details>
                      <summary>
                         <FontAwesomeIcon icon={faBars} />
-                     </summary>
-                     <summary>
                         <FontAwesomeIcon icon={faX} />
                      </summary>
                      <NavList />
                   </details>
                </nav>
-            </section>
             <section>
                <h1>
-                  Hello, I’m Jacques an
-                  <span>Web Developer</span>
+                  Hello, I’m Jacques an <span>Web Developer</span>
                </h1>
                <h3>
                   These are some of my works on this journey as a web developer.
