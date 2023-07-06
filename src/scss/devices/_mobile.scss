@@ -244,7 +244,6 @@
    }
 
    .portfolio{
-      // width: 80%;
       align-items: center;
 
       img{
@@ -289,6 +288,52 @@
 
          > svg{
             transform: rotate(90deg);
+         }
+      }
+   }
+
+   footer{
+      @include flexColumn(4vh);
+      align-items: center;
+      padding: 20vh 0vh;
+      background-color: $darkPurple;
+
+      > article{
+         width: 80%;
+         @include flexColumn(1vh);
+
+         > h2{
+            font-size: 56px;
+            font-weight: 700;
+         }
+
+         > p{
+            color: white;
+            font-size: 32px;
+            font-weight: 400;
+         }
+      }
+
+      > section {
+         width: 80%;
+         @include flexColumn(2vh);
+
+         a {
+            width: fit-content;
+            padding: 3% 6%;
+            border: 2px solid $yellow;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 500;
+         }
+
+         a:first-child{
+            color: white;
+            background-color: $yellow;
+         }
+
+         a:last-child{
+            color: white;
          }
       }
    }
