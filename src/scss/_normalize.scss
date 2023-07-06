@@ -51,8 +51,6 @@ img{
 }
 
 article{
-   @include flexColumn(2vh);
-   
    > h3{
       color: $darkPurple;
       text-align: center;
