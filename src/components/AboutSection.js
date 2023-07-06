@@ -19,7 +19,7 @@ class AboutSection extends React.Component{
       const items = [
          {
             id: "0",
-            header: "Who Am I?",
+            header: "Who Am I",
             body: "I'm Jacques, a Brazilian with an insatiable curiosity for the world around me. From a young age, I found joy in dismantling objects and exploring the inner workings of technology. My fascination with electronics, mechanics, and new technologies grew over time, fueling my passion for learning. This innate curiosity has been the driving force behind my journey into engineering and web development. Always eager to discover new knowledge and push boundaries, I strive to continually expand my skills and contribute to the ever-evolving world of technology."
          },
          {

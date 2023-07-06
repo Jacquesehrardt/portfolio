@@ -1,0 +1,156 @@
+@media (min-width: $tabletScreen) {
+   header{
+      > section{
+         padding: 20% 30% 20% 10%;
+
+         > h1{
+            font-size: 50px;
+         }
+
+         > h3{
+            font-size: 30px;
+         }
+
+         > a{
+            width: 25vw;
+            height: 5vh;
+            border-radius: 30px;
+            font-size: 20px;
+            border: 3px solid $yellow;
+            transition: .5s;
+         }
+
+         a:hover{
+            background-color: transparent;
+         }
+      }
+   }
+
+   nav{
+      height: 12vh;
+   }
+   
+   details{
+      font-size: 20px;
+   }
+
+   summary {
+      font-size: 30px;
+   }
+
+   article{
+      > h3{
+         font-size: 40px;
+      }
+
+      > h4{
+         font-size: 30px;
+      }
+   }
+
+   div > section{
+      padding: 12% 0%;
+   }
+
+   .skills{
+      align-items: center;
+
+      > aside{
+         width: 80%;
+         justify-content: space-between;
+         font-size: 26px;
+
+         > figure{
+            width: 47%;
+         }
+      }
+   }
+
+   .about{
+      > figure{
+         >img{
+            width: 60vw;
+            border-radius: 40px;
+         }
+
+         > figcaption{
+            width: 60vw;
+            height: 60vw;
+            border-radius: 40px;
+         }
+      }
+   }
+
+   .accordion{
+      .accordion-button {
+         font-size: 30px;
+      }
+
+      .accordion-body{
+         font-size: 24px;
+      }
+   }
+
+   .portfolio{
+      img{
+         border-radius: 30px;
+      }
+
+      .card-title{
+         font-size: 30px;
+      }
+
+      .card-text{
+         font-size: 20px;
+      }  
+
+      a{
+         width: 30vw;
+         border-radius: 16px;
+         font-size: 20px;
+         border: 3px solid $darkPurple;
+         transition: .5s;
+      }
+
+      a:hover{
+         background-color: transparent;
+         color: $darkPurple;
+      }
+   }
+
+   footer{
+      padding: 10vh 0vh;
+
+      > article{
+          > h2{
+            font-size: 60px;
+         }
+
+         > p{
+            font-size: 36px;
+         }
+      }
+
+      > section {
+         flex-direction: row;
+         column-gap: 4vw;
+
+         a {
+            border: 3px solid $yellow;
+            border-radius: 40px;
+            font-size: 24px;
+            transition: .5s;
+         }
+
+         a:first-child:hover{
+            color: $yellow;
+            background-color: transparent;
+         }
+
+         a:last-child:hover{
+            color: white;
+            background-color: $yellow;
+         }
+      }
+   }
+}
