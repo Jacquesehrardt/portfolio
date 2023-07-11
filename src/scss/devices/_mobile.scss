@@ -190,6 +190,10 @@
    .about{
       align-items: center;
       row-gap: 10vh;
+      background-image: url("../../assets/img/about_vector_mobile.png"), url("../../assets/img/about_ellipse.svg");
+      background-position: center bottom, 100% 80vh;
+      background-repeat: no-repeat;
+      background-size: 100%, 34%;
 
       > figure{
          position: relative;
@@ -295,8 +299,26 @@
    footer{
       @include flexColumn(4vh);
       align-items: center;
-      padding: 20vh 0vh;
+      padding: 25vh 0vh 55vh 0vh;
       background-color: $darkPurple;
+
+      /* First vector shape of the botton, after each one is a circle in order top to bottom */
+      background-image: url("../../assets/img/footer_vector_mobile.png"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg");
+      background-position: center bottom, 
+                           45% 5%,
+                           10% 10%,
+                           90% 70%,
+                           70% 75%;
+      background-size: 100%, 
+                        16%, 
+                        8%,
+                        12%,
+                        8%;
+      background-repeat: no-repeat;
 
       > article{
          width: 80%;

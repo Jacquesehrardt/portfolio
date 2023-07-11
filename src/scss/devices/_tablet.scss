@@ -67,6 +67,8 @@
    }
 
    .about{
+      background-size: 100% 30vh, 20%;
+
       > figure{
          >img{
             width: 60vw;
@@ -119,7 +121,9 @@
    }
 
    footer{
-      padding: 10vh 0vh;
+      padding: 15vh 0vh 40vh 0vh;
+
+      background-size: 100% 30vh, 10%, 5%, 10%, 6%;
 
       > article{
           > h2{

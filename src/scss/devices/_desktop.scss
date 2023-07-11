@@ -51,6 +51,7 @@
       }
 
       a:hover {
+         color: $yellow;
          scale: 1.2;
       }
 
@@ -99,7 +100,9 @@
       padding-right: 12%;
       flex-direction: row;
       justify-content: space-between;
-      
+      background-image: url("../../assets/img/about_vector_desktop.png"), url("../../assets/img/about_ellipse.svg");
+      background-position: left center, 100% 20%;
+      background-size: 25vh 100%, 10%;
 
       article{
          > h3{
@@ -183,6 +186,25 @@
    }
 
    footer{
+      padding: 15vh 0vh;
+
+      background-image: url("../../assets/img/footer_vector_desktop.png"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg"), 
+                        url("../../assets/img/footer_ellipse.svg");
+      background-position: right center, 
+                           -2% -5%, 
+                           6% 90%, 
+                           85% 65%, 
+                           70% 55%;
+      background-size: 20vw 100%, 
+                        8%, 
+                        4%, 
+                        6%, 
+                        12%;
+      background-repeat: no-repeat;
+
       > article{
          width: 76%;
 
