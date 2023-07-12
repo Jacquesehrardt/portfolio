@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.40f48ea5.css",
-    "main.js": "/portfolio/static/js/main.ddd81b16.js",
+    "main.js": "/portfolio/static/js/main.1395d3e9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/header_bg.png": "/portfolio/static/media/header_bg.c12c013ee5b7dc86755f.png",
     "static/media/dish_dig_page.png": "/portfolio/static/media/dish_dig_page.1b7513152d4d7cb54fb4.png",
     "static/media/click_eat_page.png": "/portfolio/static/media/click_eat_page.0f493756d29897f72615.png",
     "static/media/jacques_pic.jpg": "/portfolio/static/media/jacques_pic.7c588f50ba86f38d4e2c.jpg",
-    "static/media/jacques_ehrardt_resume.pdf": "/portfolio/static/media/jacques_ehrardt_resume.453c0fd6dcf7667fc3c5.pdf",
+    "static/media/jacques_ehrardt_resume.pdf": "/portfolio/static/media/jacques_ehrardt_resume.87585d43189498160380.pdf",
     "static/media/memory_jar_page.png": "/portfolio/static/media/memory_jar_page.e79925eaf48f9c005120.png",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.6fb83da449765ce30a34419a16f4533c.svg",
     "static/media/react.svg": "/portfolio/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
@@ -17,11 +17,11 @@
     "static/media/about_ellipse.svg": "/portfolio/static/media/about_ellipse.e679593764785e77fd94.svg",
     "static/media/footer_ellipse.svg": "/portfolio/static/media/footer_ellipse.ef9fd5d70978747219d7.svg",
     "main.40f48ea5.css.map": "/portfolio/static/css/main.40f48ea5.css.map",
-    "main.ddd81b16.js.map": "/portfolio/static/js/main.ddd81b16.js.map",
+    "main.1395d3e9.js.map": "/portfolio/static/js/main.1395d3e9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40f48ea5.css",
-    "static/js/main.ddd81b16.js"
+    "static/js/main.1395d3e9.js"
   ]
 }
